@@ -27,7 +27,7 @@ Individual "Voters" casting a vote in the election should submit a "ballot" JSON
       "type": "boolean",
       "required": false,
       "purpose": "For simple boolean votes this field should represent the voter's selection of Yes/No|True/False",
-      "example": <true|false>
+      "example": "<true|false>"
     },
     "Choices": {
       "type": "array",
