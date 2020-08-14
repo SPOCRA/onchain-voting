@@ -80,7 +80,7 @@ Submitting an official ballot proposal to the voting members should be done "on-
       "example": 213
     },
     "VoteEndPeriod": {
-      "type" "integer",
+      "type": "integer",
       "required": false,
       "purpose": "Specify the KES Period that voting will end.",
       "example": 215
