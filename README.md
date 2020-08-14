@@ -22,7 +22,7 @@ It's important, when voting on the chain, that the parameters of the vote in que
 
 To this end, we shall define a "Ballot Proposal" JSON specification.
 
-The current SPOCRA Ballot Proposal can be found at [a relative link](ballot_proposal.md)
+The current SPOCRA Ballot Proposal can be found at [ballot_proposal.md](ballot_proposal.md)
 
 ### Voter Ballot
-To view the details of the SPOCRA Voter Ballot you can view [a relative link](voter_ballot.md)
+To view the details of the SPOCRA Voter Ballot you can view [voter_ballot.md](voter_ballot.md)
