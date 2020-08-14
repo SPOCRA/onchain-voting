@@ -83,14 +83,20 @@ Submitting an official ballot proposal to the voting members should be done "on-
           "Name": {
             "type": "string",
             "required": true,
+            "purpose": "Provide the name of the vote option",
+            "example": "Joe Q. Public"
           },
           "Description": {
             "type": "string",
             "required": false,
+            "purpose": "Maybe provide a short paragraph here of the candidate's stump speech and/or an explanation of what a vote for this option means",
+            "example": "Vote for Joe Q. Public because I am the most awesomest dude in the world!"
           },
           "URL": {
             "type": "url",
-            "required": false
+            "required": false,
+            "purpose": "Provide an 'option-specific' URL that may contain more information about the choice/candidate",
+            "example": "https://joeqpublic.me"
           }
         }
       }
