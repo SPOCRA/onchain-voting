@@ -1,4 +1,4 @@
-# SPOCRA Ballot Proposal
+# SPOCRA Ballot Proposal Specification
 Submitting an official ballot proposal to the voting members should be done "on-chain" for the same sake of immutability and posterity that votes should also be cast on the chain.
 
 ## Proposed Ballot Proposal Format
@@ -104,6 +104,12 @@ Submitting an official ballot proposal to the voting members should be done "on-
       "items": {
         "type": "object",
         "properties": {
+          "Id": {
+            "type": "string",
+            "required": true,
+            "purpose": "A unique identifier to identify this vote option during vote casting.",
+            "example": "abc012de"
+          },
           "Name": {
             "type": "string",
             "required": true,
