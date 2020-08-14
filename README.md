@@ -16,3 +16,13 @@ In this way we can easily query for all "votes" cast on the chain to arrive at a
 Aside from just a simple poll, organizations such as SPOCRA will require some means of voter authentication as well as a limited time window to vote. This can be accomplished and queried from the chain using JSON metadata attributes.
 
 The structure and format of this JSON specification will be an on-going development process as SPOCRA hones and refines its needs.
+
+### Ballot Proposals
+It's important, when voting on the chain, that the parameters of the vote in question should also be immutably stored on the chain as well.
+
+To this end, we shall define a "Ballot Proposal" JSON specification.
+
+The current SPOCRA Ballot Proposal can be found at [a relative link](ballot_proposal.md)
+
+### Voter Ballot
+To view the details of the SPOCRA Voter Ballot you can view [a relative link](voter_ballot.md)
