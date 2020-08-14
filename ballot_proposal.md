@@ -73,6 +73,30 @@ Submitting an official ballot proposal to the voting members should be done "on-
       "purpose": "Optionally specify the destination address that a vote should be sent to (i.e. --txn-out <VoteAddr>+<VoteFee>)",
       "example": "addr1v8ykqq055nss2eavrzlrc3mx8gq2sk84r3t80855ny7npmcd8qtuz"
     },
+    "VoteStartPeriod": {
+      "type": "integer",
+      "required": false,
+      "purpose": "Specify the KES Period that voting will start.",
+      "example": 213
+    },
+    "VoteEndPeriod": {
+      "type" "integer",
+      "required": false,
+      "purpose": "Specify the KES Period that voting will end.",
+      "example": 215
+    },
+    "VoteStartTime": {
+      "type": "timestamp",
+      "required": false,
+      "purpose": "Specify the timestamp (UTC) that voting will start.",
+      "example": "2020-09-01 00:00:00"
+    },
+    "VoteEndTime": {
+      "type": "timestamp",
+      "required": false,
+      "purpose": "Specify the timestamp (UTC) that voting will end.",
+      "example": "2020-10-01 00:00:00"
+    },
     "VoteOptions": {
       "type": "array",
       "required": false,
