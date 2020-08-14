@@ -46,7 +46,7 @@ Submitting an official ballot proposal to the voting members should be done "on-
     "VoteType": {
       "type": "string",
       "required": true,
-      "purpose": "Define the type of vote (multiple choice, boolean, etc)"
+      "purpose": "Define the type of vote (multiple choice, boolean, etc)",
       "example": "<boolean|multiple-choice|single-choice>"
     },
     "VoteLimit": {
