@@ -33,7 +33,7 @@ Individual "Voters" casting a vote in the election should submit a "ballot" JSON
       "type": "array",
       "required": false,
       "purpose": "For single or multiple-choice votes, this array should contain information about their selections",
-      "items: {
+      "items": {
         "type": "object",
         "properties": {
           "CandidateId": {
