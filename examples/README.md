@@ -1,0 +1,1 @@
+# Cardano Transaction Metadata Format

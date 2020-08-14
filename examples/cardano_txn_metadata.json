@@ -1,0 +1,14 @@
+{
+  "1": {
+    "key1": "value1",
+    "key2": [
+      "ArrayValue1",
+      "ArrayValue2",
+      "ArrayValue3"
+    ],
+    "key3": {
+      "attribute1": "Some Value",
+      "attribute2": "Some Other Value"
+    }
+  }
+}
