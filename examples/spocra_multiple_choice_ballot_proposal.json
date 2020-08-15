@@ -1,0 +1,46 @@
+{
+  "1": {
+	"NetworkId": "SPOCRA Test",
+	"ProposalId": "a223d901-9615-4082-8d7c-5f680961939d",
+	"Title": "SPOCRA Creation Committee Candidate Election",
+	"Question": "Choose 3 candidates for election to the initial SPOCRA Creation Committee",
+	"Description": "Each SPO shall select three (3) candidates of their choice to be elected to the SPOCRA Creation Committee. You may only vote for a candidate once.",
+	"ProposalURL": "https://wearecardano.io/proposals/a223d901-9615-4082-8d7c-5f680961939d",
+	"VoteType": "multiple-choice",
+	"VoteLimit": 3,
+	"VoteMultiple": false,
+	"VoteFee": 0,
+	"VoteStartPeriod": 212,
+	"VoteEndPeriod": 214,
+	"VoteOptions": [
+	  {
+		"Id": "d50a16d8-bb94-475b-ab90-119135dd2dfc",
+		"Name": "John Q. Public",
+		"Description": "Vote for John Q. Public because he's the right person for the job!",
+		"URL": "https://johnqpublic.me/spocra/candidacy"
+	  },
+	  {
+		"Id": "2364e3e7-f969-4f77-83c1-1c25d29d8d85",
+		"Name": "Jane Doe",
+		"Description": "Vote for Jane Doe to serve on the Creation Committee because I've got the passion, experience, and gumption to get things done!",
+		"URL": "https://janedoe.me"
+	  },
+	  {
+		"Id": "51aeecc8-7a54-48b3-94e3-f8f148512cbb",
+		"Name": "John Smith",
+		"Description": "Vote for John Smith because reasons!",
+		"URL": "https://google.com"
+	  },
+	  {
+		"Id": "91335bde-2f4d-429e-8a58-183ee257a95f",
+		"Name": "Donald J. Trump, Jr.",
+		"Description": "Make Cardano great again!"
+	  },
+	  {
+		"Id": "ab8d455f-0711-49ea-8b64-a334147fee08",
+		"Name": "Joe Biden",
+		"Description": "Vote for me!"
+	  }
+	]
+  }
+}
