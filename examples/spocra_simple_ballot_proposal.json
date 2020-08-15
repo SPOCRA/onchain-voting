@@ -3,7 +3,7 @@
 	"NetworkId": "SPOCRA Test",
 	"ProposalId": "de6a3c6c-a351-44cb-a907-175128705f04",
 	"Title": "Buy Beers",
-	"Question": "Should SPOCRA buy the first round for all members attending meet-ups?",
+	"Question": "Should SPOCRA buy the first round for all members?",
 	"Description": "Are you pro-beer; or anti-beer?",
 	"ProposalURL": "https://wearecardano.io/proposals/buy-beer",
 	"VoteType": "boolean",

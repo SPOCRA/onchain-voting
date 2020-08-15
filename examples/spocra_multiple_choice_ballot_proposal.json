@@ -3,9 +3,9 @@
 	"NetworkId": "SPOCRA Test",
 	"ProposalId": "a223d901-9615-4082-8d7c-5f680961939d",
 	"Title": "SPOCRA Creation Committee Candidate Election",
-	"Question": "Choose 3 candidates for election to the initial SPOCRA Creation Committee",
-	"Description": "Each SPO shall select three (3) candidates of their choice to be elected to the SPOCRA Creation Committee. You may only vote for a candidate once.",
-	"ProposalURL": "https://wearecardano.io/proposals/a223d901-9615-4082-8d7c-5f680961939d",
+	"Question": "Choose 3 candidates for election to the SPOCRA Creation Committee",
+	"Description": "Each SPO shall select three (3) candidates of their choice.",
+	"ProposalURL": "https://wearecardano.io/proposals/5f680961939d",
 	"VoteType": "multiple-choice",
 	"VoteLimit": 3,
 	"VoteMultiple": false,
@@ -22,7 +22,7 @@
 	  {
 		"Id": "2364e3e7-f969-4f77-83c1-1c25d29d8d85",
 		"Name": "Jane Doe",
-		"Description": "Vote for Jane Doe to serve on the Creation Committee because I've got the passion, experience, and gumption to get things done!",
+		"Description": "Vote for Jane Doe to serve on the Creation Committee!",
 		"URL": "https://janedoe.me"
 	  },
 	  {

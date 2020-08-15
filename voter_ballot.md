@@ -1,6 +1,8 @@
 # SPOCRA Voter Ballot Specification
 Individual "Voters" casting a vote in the election should submit a "ballot" JSON file in compliance with the parameters of the "ballot proposal" in order for their vote to be counted.
 
+**NOTE:** There is a 64-character limit for all string entries.
+
 ```json
 {
   "type": "object",

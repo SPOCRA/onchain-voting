@@ -1,6 +1,8 @@
 # SPOCRA Ballot Proposal Specification
 Submitting an official ballot proposal to the voting members should be done "on-chain" for the same sake of immutability and posterity that votes should also be cast on the chain.
 
+**NOTE:** There is a 64-character limit for all string entries.
+
 ## Proposed Ballot Proposal Format
 
 ```json
