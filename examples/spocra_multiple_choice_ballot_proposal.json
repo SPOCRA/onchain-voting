@@ -8,7 +8,7 @@
 	"ProposalURL": "https://wearecardano.io/proposals/5f680961939d",
 	"VoteType": "multiple-choice",
 	"VoteLimit": 3,
-	"VoteMultiple": false,
+	"VoteMultiple": 0,
 	"VoteFee": 0,
 	"VoteStartPeriod": 212,
 	"VoteEndPeriod": 214,

@@ -58,10 +58,10 @@ Submitting an official ballot proposal to the voting members should be done "on-
       "example": 3
     },
     "VoteMultiple": {
-      "type": "boolean",
+      "type": "integer",
       "required": false,
       "purpose": "Define whether or not a voter may vote for the same candidate more than once in a multiple-choice vote",
-      "example": false
+      "example": "<0|1>"
     },
     "VoteFee": {
       "type": "integer",
