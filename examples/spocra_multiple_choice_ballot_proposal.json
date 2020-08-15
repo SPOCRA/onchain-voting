@@ -3,7 +3,7 @@
 	"NetworkId": "SPOCRA Test",
 	"ProposalId": "a223d901-9615-4082-8d7c-5f680961939d",
 	"Title": "SPOCRA Creation Committee Candidate Election",
-	"Question": "Choose 3 candidates for election to the SPOCRA Creation Committee",
+	"Question": "Choose 3 candidates for the SPOCRA Creation Committee",
 	"Description": "Each SPO shall select three (3) candidates of their choice.",
 	"ProposalURL": "https://wearecardano.io/proposals/5f680961939d",
 	"VoteType": "multiple-choice",
@@ -16,7 +16,7 @@
 	  {
 		"Id": "d50a16d8-bb94-475b-ab90-119135dd2dfc",
 		"Name": "John Q. Public",
-		"Description": "Vote for John Q. Public because he's the right person for the job!",
+		"Description": "Vote for John Public because he's the right person for the job!",
 		"URL": "https://johnqpublic.me/spocra/candidacy"
 	  },
 	  {
