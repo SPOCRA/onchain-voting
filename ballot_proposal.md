@@ -9,6 +9,18 @@ Submitting an official ballot proposal to the voting members should be done "on-
 {
   "type": "object",
   "properties": {
+    "ObjectType": {
+      "type": "string",
+      "required": true,
+      "purpose": "Identify the type of object this is",
+      "example": "VoteProposal"
+    },
+    "ObjectVersion": {
+      "type": "string",
+      "required": false,
+      "purpose": "Specify the specification version of the object for future reference and parsing",
+      "example": "1.0.0"
+    },
     "NetworkId": {
       "type": "string",
       "required": true,
@@ -19,7 +31,13 @@ Submitting an official ballot proposal to the voting members should be done "on-
       "type": "string",
       "required": true,
       "purpose": "Unique identifier (hash?) identifying this particular proposal",
-      "example": "abc001ef"
+      "example": "52da18fb-64ec-4d00-9484-fdb0b67ef678"
+    },
+    "VoterHash": {
+      "type": "string",
+      "required": false,
+      "purpose": "This should be the sha1 hash of the ProposalId + a unique RegistrationId that will be submitted containing registered VoterIds following the close of the voting window.",
+      "example": "35184eba36aaa9ab8f96cba71ac65d4a54e0e59c"
     },
     "Title": {
       "type": "string",
@@ -61,6 +79,12 @@ Submitting an official ballot proposal to the voting members should be done "on-
       "type": "integer",
       "required": false,
       "purpose": "Define whether or not a voter may vote for the same candidate more than once in a multiple-choice vote",
+      "example": "<0|1>"
+    },
+    "VoteRanked": {
+      "type": "integer",
+      "required": false,
+      "purpose": "Define whether or not voters should rank their votes in order of preference",
       "example": "<0|1>"
     },
     "VoteFee": {
@@ -106,7 +130,7 @@ Submitting an official ballot proposal to the voting members should be done "on-
       "items": {
         "type": "object",
         "properties": {
-          "Id": {
+          "CandidateId": {
             "type": "string",
             "required": true,
             "purpose": "A unique identifier to identify this vote option during vote casting.",

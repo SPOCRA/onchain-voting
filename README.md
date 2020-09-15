@@ -26,3 +26,17 @@ The current SPOCRA Ballot Proposal can be found at [ballot_proposal.md](ballot_p
 
 ### Voter Ballot
 To view the details of the SPOCRA Voter Ballot you can view [voter_ballot.md](voter_ballot.md)
+
+### Voter Registration
+Currently, we do not have a reliable method of identity verification on-chain. This predicates the need for an assigned
+"Voter ID" in the case of a vote where we want to limit vote casting to one or more votes per entity.
+
+To this end, currently the onus is on the voting authority to generate and issue a unique "Voter ID" for every voter in
+a given vote proposal. The valid IDs eligible to vote should be submitted to the chain following the close of the voting
+window to enable vote validation tools to confirm a voter's eligibility in the vote.
+
+To view the details of the SPOCRA Voter Registration you can view [voter_registration.md](voter_registration.md)
+
+## Requirements
+
+Currently, [cardano-node-db-sync](https://github.com/input-output-hk/cardano-db-sync) seems to be the only block exploration method that supports fetching transaction metadata.

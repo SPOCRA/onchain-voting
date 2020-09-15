@@ -1,5 +1,7 @@
 {
   "1": {
+	"ObjectType": "VoteBallot",
+	"ObjectVersion": "1.0.0",
 	"NetworkId": "SPOCRA Test",
 	"ProposalId": "de6a3c6c-a351-44cb-a907-175128705f04",
 	"VoterId": "7aab2f11-4e36-4c5f-bea1-2498d74f8733",

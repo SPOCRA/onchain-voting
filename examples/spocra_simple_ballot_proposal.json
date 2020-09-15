@@ -1,5 +1,7 @@
 {
   "1": {
+	"ObjectType": "VoteProposal",
+	"ObjectVersion": "1.0.0",
 	"NetworkId": "SPOCRA Test",
 	"ProposalId": "de6a3c6c-a351-44cb-a907-175128705f04",
 	"Title": "Buy Beers",

@@ -1,5 +1,7 @@
 {
   "1": {
+	"ObjectType": "VoteProposal",
+	"ObjectVersion": "1.0.0",
 	"NetworkId": "SPOCRA Test",
 	"ProposalId": "a223d901-9615-4082-8d7c-5f680961939d",
 	"Title": "SPOCRA Creation Committee Candidate Election",

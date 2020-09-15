@@ -7,6 +7,18 @@ Individual "Voters" casting a vote in the election should submit a "ballot" JSON
 {
   "type": "object",
   "properties": {
+    "ObjectType": {
+      "type": "string",
+      "required": true,
+      "purpose": "Identify the type of object this is",
+      "example": "VoteBallot"
+    },
+    "ObjectVersion": {
+      "type": "string",
+      "required": false,
+      "purpose": "Specify the specification version of the object for future reference and parsing",
+      "example": "1.0.0"
+    },
     "NetworkId": {
       "type": "string",
       "required": true,
@@ -49,6 +61,12 @@ Individual "Voters" casting a vote in the election should submit a "ballot" JSON
             "required": true,
             "purpose": "Assign a 'vote weight' to this candidate based on the voter's selection, should default to 0 or 1 unless VoteMultiple is true in the Ballot Proposal",
             "example": 1
+          },
+          "VoteRank": {
+            "type": "integer",
+            "required": false,
+            "purpose": "Assign a 'vote rank' to this candidate. Each 'rank' should only appear once in a given voter ballot except for '0' if the voter is not voting for this candidate. Only required for VoteMultiple and VoteRanked is true in the Ballot Proposal",
+            "example": 3
           }
         }
       }
