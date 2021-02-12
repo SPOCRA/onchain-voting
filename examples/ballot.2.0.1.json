@@ -1,0 +1,103 @@
+{
+  "161815161519112": {
+    "ObjectType": "VoteProposal",
+    "ObjectVersion": "2.0.1",
+    "NetworkId": "Arizona Secretary of State",
+    "ProposalId": "a223d901-9615-4082-8d7c-5f680961939d",
+    "Title": "2020 US Federal and AZ State General Election",
+    "RequireVoterId": 1,
+    "VoteStartPeriod": 219,
+    "VoteEndPeriod": 226,
+    "Questions": [
+      {
+        "Question": [
+          "US President"
+        ],
+        "Description": [
+          "Select your choice for the offices of President/Vice President",
+          "of the United States of America. (Choose Only 1)"
+        ],
+        "VoteType": "choice",
+        "VoteLimit": 1,
+        "VoteMultiple": 0,
+        "VoteRanked": 0,
+        "VoteOptions": [
+          {
+            "CandidateId": "abc123",
+            "Name": "Biden | Harris (DEM)"
+          },
+          {
+            "CandidateId": "abc124",
+            "Name": "Trump | Pence (REP)"
+          },
+          {
+            "CandidateId": "abc125",
+            "Name": "Jorgenson | Cohen (LIB)"
+          }
+        ]
+      },
+      {
+        "Question": [
+          "US Senator"
+        ],
+        "Description": [
+          "Select your choice for the office of Senator. (Choose only 1)"
+        ],
+        "VoteType": "choice",
+        "VoteLimit": 1,
+        "VoteMultiple": 0,
+        "VoteRanked": 0,
+        "VoteOptions": [
+          {
+            "CandidateId": "abc126",
+            "Name": "Kelly, Mark (DEM)"
+          },
+          {
+            "CandidateId": "abc127",
+            "Name": "McSally, Martha (REP)"
+          }
+        ]
+      },
+      {
+        "Question": [
+          "PROPOSITION 207",
+          "",
+          "PROPOSED BY INITIATIVE PETITION RELATING",
+          "TO THE RESPONSIBLE ADULT USE, REGULATION",
+          "AND TAXATION OF MARIJUANA"
+        ],
+        "Description": [
+          "THE LAW WOULD ALLOW LIMITED",
+          "MARIJUANA POSSESSION, USE, AND CULTIVATION",
+          "BY ADULTS 21 OR OLDER; AMEND CRIMINAL",
+          "PENALTIES FOR MARIJUANA POSSESSION; BAN",
+          "SMOKING MARIJUANA IN PUBLIC; IMPOSE A 16%",
+          "EXCISE TAX ON MARIJUANA SALES TO FUND",
+          "PUBLIC PROGRAMS; AUTHORIZE STATE/LOCAL",
+          "REGULATION OF MARIJUANA LICENSEES; AND",
+          "ALLOW EXPUNGEMENT OF MARIJUANA OFFENSES.",
+          "",
+          "A “YES” vote shall have the effect of allowing adults 21",
+          "years or older to use, possess, or transfer up to one",
+          "ounce of marijuana and cultivate for personal use not",
+          "more than six marijuana plants at a primary residence;",
+          "banning smoking marijuana in public places and open",
+          "spaces; amending criminal classifications and penalties",
+          "for marijuana possession and use; allowing the retail sale",
+          "of marijuana at licensed establishments; imposing a 16%",
+          "excise tax on marijuana sales to fund community colleges,",
+          "infrastructure, public safety, and public health programs;",
+          "authorizing state and local regulation of the sale and",
+          "production of marijuana by a capped number of licensees;",
+          "and allowing courts to vacate and expunge certain",
+          "marijuana arrests, charges, adjudications, convictions, or",
+          "sentences.",
+          "",
+          "A “NO” vote shall have the effect of retaining current law",
+          "regarding the use of marijuana"
+        ],
+        "VoteType": "boolean"
+      }
+    ]
+  }
+}
